@@ -1,2 +1,0 @@
-!function(){var n=function(n){return new Promise((function(t,o){var a,c,i=(a=200,c=500,Math.floor(Math.random()*(c-a+1)+a));setTimeout((function(){Math.random()>.3?t(n.id,i):o(n.id)}),i)}))},t=function(n,t){console.log("Transaction ".concat(n," processed in ").concat(t,"ms"))},o=function(n){console.warn("Error processing transaction ".concat(n,". Please try again later."))};n({id:70,amount:150}).then(t).catch(o),n({id:71,amount:230}).then(t).catch(o),n({id:72,amount:75}).then(t).catch(o)}();
-//# sourceMappingURL=index.783c66e9.js.map
