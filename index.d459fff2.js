@@ -1,0 +1,2 @@
+const a=a=>new Promise(((n,o)=>{const t=(e=200,r=500,Math.floor(Math.random()*(r-e+1)+e));var e,r;setTimeout((()=>{Math.random()>.3?n(a.id,t):o(a.id)}),t)})),n=(a,n)=>{console.log(`Transaction ${a} processed in ${n}ms`)},o=a=>{console.warn(`Error processing transaction ${a}. Please try again later.`)};a({id:70,amount:150}).then(n).catch(o),a({id:71,amount:230}).then(n).catch(o),a({id:72,amount:75}).then(n).catch(o);
+//# sourceMappingURL=index.d459fff2.js.map
